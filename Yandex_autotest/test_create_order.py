@@ -1,5 +1,5 @@
 import requests
-from config.configuration import BASE_URL, CREATE_ORDER_PATH, GET_ORDER_PATH
+from configuration import BASE_URL, CREATE_ORDER_PATH, GET_ORDER_PATH
 
 def test_create_and_get_order():
     create_response = requests.post(BASE_URL + CREATE_ORDER_PATH, json={
