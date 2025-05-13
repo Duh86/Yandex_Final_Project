@@ -1,3 +1,5 @@
+# Пётр Кутузов, 29-я когорта — Финальный проект. Инженер по тестированию плюс
+
 import requests
 from configuration import BASE_URL, CREATE_ORDER_PATH, GET_ORDER_PATH
 
